@@ -7,15 +7,16 @@ To Start:
 
 1. Run Vagrant
 2. Provision to Host - welcome.php, index.php, admin.php, config.php
-3. Provision to Attacker - SQL.txt, User.txt, Password.txt
-4. To run the webpage, make sure that config.php is configured properly
-5. Import SQL localhost and tic4301 into PHPmyAdmin
-6. Start index.php on Host machine
-7. Use the Attacker machine to log on to the same webpage.
+3. Also include the .sql files to the host machine.
+4. Provision to Attacker - SQL.txt, User.txt, Password.txt.
+5. Import SQL localhost and tic4301 into PHPmyAdmin.
+6. To run the webpage, make sure that config.php is configured properly.
+7. Start index.php on the host machine.
+8. Use the Attacker machine to log on to the same webpage.
 
 SQL Injection - Login Page (index.php)
 1. Using the tool of your choice, you can insert SQL.txt to test the source codes.
-2. The next test is too bypass login
+2. The next test is to bypass login.
 3. User.txt is for the user_id field, and Password.txt is for the password field
 
 XSS - Form Page (welcome.php)
