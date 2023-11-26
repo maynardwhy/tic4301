@@ -9,7 +9,7 @@ To Start:
 2. Provision to Host - welcome.php, index.php, admin.php, config.php
 3. Also include the .sql files to the host machine.
 4. Provision to Attacker - SQL.txt, User.txt, Password.txt.
-5. Import SQL localhost and tic4301 into PHPmyAdmin.
+5. Import SQL localhost.sql and tic4301.sql into PHPmyAdmin.
 6. To run the webpage, make sure that config.php is configured properly.
 7. Start index.php on the host machine.
 8. Use the Attacker machine to log on to the same webpage.
