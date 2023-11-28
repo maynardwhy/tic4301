@@ -19,6 +19,8 @@ SQL Injection - Login Page (index.php)
 2. The next test is to bypass login.
 3. User.txt is for the user_id field, and Password.txt is for the password field
 
+SQL Injection reference - https://book.hacktricks.xyz/pentesting-web/login-bypass/sql-login-bypass
+
 XSS - Form Page (welcome.php)
 1. For XSS, you can use the scripts below to insert into the Form Page.
 
